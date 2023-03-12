@@ -1,0 +1,76 @@
+{
+  "NavBar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog"
+  },
+  "WorkingOn": {
+    "text": "Working on"
+  },
+  "404": {
+    "errorMessage": "Page not found!",
+    "funnyMessage": "Be careful there could be ghosts here."
+  },
+  "Home" : {
+    "helloMessage": "Hello, i'm",
+    "desecription": "Software developer, living in Brasil.",
+    "slogan": "Always trying learning something new."
+  },
+  "About": {
+    "about": "About me",
+    "aboutMe": {
+      "saudation": "Hi, I’m",
+      "whoami": ", a passionate software developer, living in Brasil, graduated with a",
+      "graduation": "bachelor's degree in information systems.",
+      "particulars": "My goal is to make a difference by building applications that make a positive impact on people or the world, solving problems or making things easier, using programming.",
+      "slogan": "Seeking to be my best version, always looking for learn something new, new challenges and opportunities to develop myself.",
+      "thingsILike": "Fan of comics, mangas, rock, games, movies, series and animes, a complete geek."
+    },
+    "hardSkills": {
+      "text1": "I consider myself as ",
+      "text2": "full-stack developer",
+      "text3": ", and i'm always improving to learn new technologies that helps me to solve problems or just make things easier.",
+      "text4": "My main focus these days is developing ",
+      "text5": "mobile",
+      "text6": " or ",
+      "text7": "web applications on frontend",
+      "text8": " with responsive, pleasant designs that provides a good user experience and on ",
+      "text9": "backend",
+      "text10": " with the rules defined by the business implemented with a good performance and in a way that the data is transmitted correctly and securely.",
+      "text11": "Always seeking to apply ",
+      "text12": "good practices",
+      "text13": ", which allow easy maintenance and simplicity in the readability of the code.",
+      "text14": "Here are a few technologies I’ve been working with recently:"
+    },
+    "softSkills": {
+      "text1": "I always try have a critical thinking and been ",
+      "text2": "creative",
+      "text3": ", identify problems, thinking in different solutions, maintain a ",
+      "text4": "good communication",
+      "text5": ", passing feedbacks, seeking to been ",
+      "text6": "flexible",
+      "text7": " and ",
+      "text8": "resilient",
+      "text9": " to adapt myself in any circumstances, be ",
+      "text10": "proactive",
+      "text11": ", evaluating scenarios and finding ways to resolve issues that impede results or hinder productivity.",
+      "text12": "I work well in team, i believe it is important to discuss ways to solve determined problem, after all, there always more than one, i like to hear people's ideas and opinions, mostly when is different than mine, is always a good way to learn and grow up, and i think that ",
+      "text13": "collaborate ",
+      "text14": "is the most important skill for those who work with knologment.",
+      "card": {
+        "adaptability": "Adaptability",
+        "creativity": "Creativity",
+        "teamWork": "Team Work",
+        "timeManagement": "Time Management"
+      }
+    },
+    "programmingCard": {
+      "title": "Programming",
+      "text1": "The act of writing code, for a computer to execute",
+      "text2": ", this is the definition of what is programming, according to Google, for me a better definition would be ",
+      "text3": "the act of turning abstract ideas into something that solves a problem",
+      "text4": " and this idea is very interesting, maybe that's why I do it with enthusiasm and passion, always looking for ways to solve problems."
+    }
+  }
+}
