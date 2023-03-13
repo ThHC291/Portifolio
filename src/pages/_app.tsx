@@ -28,7 +28,7 @@ const MyApp = ({ Component, pageProps, router }: AppProps) => {
   }, [shortLocale]);
 
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider defaultTheme="dark" attribute="class">
       <NextIntlProvider messages={messages}>
         <Layout>
           <motion.div
