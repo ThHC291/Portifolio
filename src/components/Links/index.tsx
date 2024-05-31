@@ -6,7 +6,7 @@ const Links: React.FC = () => {
     <>
       <section className="flex items-center">
         <section className="px-1">
-          <Link legacyBehavior href="https://github.com/ThHC291">
+          <Link legacyBehavior href="https://github.com/thiagochinen">
             <a target="_blank">
               <FaGithub size={25} />
             </a>
