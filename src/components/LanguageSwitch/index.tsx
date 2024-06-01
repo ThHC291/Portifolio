@@ -1,10 +1,22 @@
 import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import { MdLanguage } from "react-icons/md";
 
 const LanguageSwitch = () => {
   const router = useRouter();
-  const { locales, pathname, query, asPath } = router;
+  const { locale, locales, pathname, query, asPath } = router;
   const otherLocales = locales || [];
+
+  const [selectedLocale, setSelectedLocale] = useState(locale);
+
+  useEffect(() => {
+    setSelectedLocale(locale);
+  }, [locale]);
+
+  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const newLocale = event.target.value;
+    router.push({ pathname, query }, asPath, { locale: newLocale });
+  };
 
   return (
     <>
@@ -12,11 +24,8 @@ const LanguageSwitch = () => {
         <MdLanguage size={25} />
         <select
           className="text-semibold text-lg p-1 rounded bg-transparent	transition focus:outline-none"
-          onChange={(event) =>
-            router.push({ pathname, query }, asPath, {
-              locale: event.target.value,
-            })
-          }
+          value={selectedLocale}
+          onChange={handleChange}
         >
           {otherLocales.map((localeOption, key) => {
             return (
