@@ -4,7 +4,9 @@ const Footer: React.FC = () => {
   return (
     <footer className="flex flex-col items-center py-1 bg-light-color dark:bg-secondary">
       <section className="text-primary font-normal my-3">
-        thiagochinen2015@gmail.com
+        <a href="mailto:thiagochinen2015@gmail.com" className="hover:underline">
+          thiagochinen2015@gmail.com
+        </a>
       </section>
       <Links />
       <section className="text-black font-light text-xs my-3">
