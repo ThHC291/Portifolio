@@ -14,50 +14,30 @@
   },
   "Home" : {
     "helloMessage": "Hello, i'm",
-    "desecription": "Software developer, living in Brazil.",
-    "slogan": "Always trying learning something new."
+    "desecription": "Let's turn abstract ideas into reality.",
+    "slogan": "Let's make it happen!"
   },
   "About": {
     "about": "About me",
     "aboutMe": {
-      "saudation": "Hi, i’m",
-      "whoami": ", a passionate software developer living in Brazil, with a",
-      "graduation": "bachelor's degree in information systems.",
-      "particulars": "My goal is to make a difference by building applications that have a positive impact on people or the world, solving problems or making tasks easier through programming.",
-      "slogan": "I constantly strive to be the best version of myself, always seeking to learn something new, embrace new challenges, and explore opportunities for personal growth.",
-      "thingsILike": "I'm an avid fan of comics, manga, rock music, games, movies, series and anime, a true geek."
+      "text1": "Hello, I'm <strongColor>Thiago Hiroaki Chinen</strongColor>, a passionate software developer, who <strong>solves problems through programming</strong>.",
+	    "text2": "My goal is to <strong>make a difference by building high-quality applications</strong> that <strong>meet needs</strong>, <strong>exceed expectations</strong> and most importantly have a <strongColor>positive impact</strongColor> on <strong>people</strong> or the <strong>world</strong>, <strongColor>solving problems</strongColor> and <strongColor>making things easier</strongColor>.",
+	    "text4": "I'm a fan of <strong>books, comics, manga, philosophy, jiu-jitsu, games, movies, series, and anime,</strong> a <strongColor>true geek</strongColor>.",
+      "contactMe": {
+        "text1": "If you're looking for a <strong>dedicated developer</strong> <strongColor>passionate about technology</strongColor>, ready to tackle new challenges, and <strong>find ways to solve problems</strong>, feel free to contact me. I'm looking forward to exchanging ideas and <strong>exploring how we can collaborate</strong> to <strongColor>create impactful solutions</strongColor>.",
+        "text2": "Let's turn abstract ideas into reality, let's make it happen!"
+      }
     },
     "hardSkills": {
-      "text1": "I consider myself a ",
-      "text2": "full-stack developer",
-      "text3": " and i'm always improving to learning new technologies that help me to solve problems or streamline tasks.",
-      "text4": "Currently, my main focus is on developing ",
-      "text5": "mobile",
-      "text6": " or ",
-      "text7": "web applications on the frontend",
-      "text8": " with responsive and pleasant designs that provide an excellent user experience. On the ",
-      "text9": "backend",
-      "text10": ", I ensure that the business rules are efficiently implemented with good performance and that data is transmitted correctly and securely.",
-      "text11": "Always strive to apply ",
-      "text12": "good practices",
-      "text13": ", which allow easy maintenance and simplicity in the readability of the code.",
-      "text14": "Here are some technologies I have been working with recently:"
+      "text1": "I am constantly <strong>seeking to improve my skills</strong> to<strongColor> simplify </strongColor> and <strongColor> solve complex problems efficiently</strongColor>.",
+      "text2": "Currently, my focus is on <strongColor> web application development</strongColor>, always adopting <strong> good practices </strong> to achieve a robust architecture that <strong> meets business rules</strong>,<strong> respects constraints</strong>, and strives for <strong> quality, performance, availability, scalability, maintainability, flexibility and security, </strong> creating a good <strong> user experience </strong> with <strong> responsive </strong> and <strong> appealing </strong> interfaces, <strongColor> thereby driving business success.</strongColor>",
+      "text3": "My commitment to excellence is evident in all aspects of my work, and I deeply value <strong> teamwork</strong>, believing that it is through <strong> sharing ideas</strong>, and <strong> collaborating</strong>, that we can <strongColor> achieve the best results</strongColor>.",
+      "text4": "Here are some of the <strong>technologies</strong> I have been working with recently:"
     },
     "softSkills": {
-      "text1": "I always try to have a critical thinking and been ",
-      "text2": "creative",
-      "text3": ", identify problems, thinking in different solutions, maintain a ",
-      "text4": "good communication",
-      "text5": ", passing feedbacks, seeking to been ",
-      "text6": "flexible",
-      "text7": " and ",
-      "text8": "resilient",
-      "text9": ", adapting well to various circumstances, be ",
-      "text10": "proactive",
-      "text11": " in evaluating situations to resolve issues that may impede progress or hinder productivity.",
-      "text12": "I enjoy working in a team and strongly believe in discussing multiple approaches to solving specific problems. I value hearing people's ideas and opinions, particularly when they differ from mine, as it offers an excellent opportunity to learn and grow, in my opinion ",
-      "text13": "collaborate ",
-      "text14": "is the most crucial skill for those working with knowledge.",
+      "text1": "I always strive to have <strongColor>critical</strongColor> and <strongColor>creative</strongColor> thinking, identify problems, and think of different solutions. I strive to maintain <strongColor>good communication</strongColor>, be <strongColor>flexible</strongColor>, and <strongColor>resilient</strongColor> to adapt to any circumstance. I seek to be <strongColor>proactive</strongColor>, assessing scenarios and finding ways to solve problems that hinder results or impair productivity.",
+      "text2": "Working in a team is a skill I consider essential. I believe in the importance of <strong>discussing different approaches to problem-solving</strong>, recognizing that there is always more than one perspective. I am always open to listening to others' ideas and opinions, especially when they differ from mine, as <strongColor>collaboration</strongColor> is fundamental in the workplace, especially for knowledge workers.",
+	    "text3": "I constantly strive to be <strong>the best version of myself</strong>, always seeking to <strongColor>learn</strongColor> something new, tackle <strong>new challenges</strong>, and seize opportunities for <strong>personal development</strong>. I'm <strongColor>passionate</strongColor> <strong>about technology</strong> and always <strongColor>avaliable</strongColor> to discuss it.",
       "card": {
         "adaptability": "Adaptability",
         "creativity": "Creativity",
@@ -67,10 +47,7 @@
     },
     "programmingCard": {
       "title": "Programming",
-      "text1": "The act of writing code, for a computer to execute",
-      "text2": ", this is the definition of what is programming, according to Google, for me a better definition would be ",
-      "text3": "the act of turning abstract ideas into something that solves a problem",
-      "text4": " and this idea is very interesting, maybe that's why I do it with enthusiasm and passion, always looking for ways to solve problems."
+      "text": "<italic>The act of writing code, for a computer to execute</italic>, this is the definition of what is programming, according to Google, for me a better definition would be <italic>the act of turning abstract ideas into something that solves a problem</italic>  and this idea is very interesting, maybe that's why I do it with enthusiasm and passion, always looking for ways to solve problems."
     }
   }
 }

@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       </section>
       <Links />
       <section className="text-black font-light text-xs my-3">
-        @ 2022 Copyright: Thiago Chinen
+        @ 2024 Copyright: Thiago Chinen
       </section>
     </footer>
   );

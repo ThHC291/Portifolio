@@ -7,103 +7,78 @@ import { CardTech } from "../components/CardTech";
 const About: NextPage = () => {
   const t = useTranslations("About");
 
+  const tagsInText = {
+    strong: (text: any) => <strong>{text}</strong>,
+    strongColor: (text: any) => <strong className="font-semibold text-primary">{text}</strong>,
+    italic: (text: any) => <strong className="italic">{text}</strong>,
+  }
+
   return (
     <>
       <section className="container flex flex-col gap-x-12 p-4 mx-auto mb-10">
         <section className="flex flex-col items-center mt-4">
           <p className="text-center font-bold text-3xl mb-8">{t("about")}</p>
           <section className="flex flex-col items-center md:flex-row md:justify-center">
+
             <section className="flex flex-col w-full text-xl text-center md:text-start md:pr-4">
-              <p>
-                {t("aboutMe.saudation")}
-                <strong className="font-semibold text-primary">
-                  {" "}
-                  Thiago Hiroaki Chinen
-                </strong>
-                {t("aboutMe.whoami")}
-                <strong> {t("aboutMe.graduation")} </strong>
-              </p>
+              <p>{t.rich("aboutMe.text1", tagsInText)}</p>
               <br />
-              <p>{t("aboutMe.particulars")}</p>
+              <p>{t.rich("aboutMe.text2", tagsInText)}</p>
               <br />
-              <p>{t("aboutMe.slogan")}</p>
+              <p>{t.rich("aboutMe.text4", tagsInText)}</p>
               <br />
-              <p>{t("aboutMe.thingsILike")}</p>
+              <p>{t.rich("aboutMe.contactMe.text1", tagsInText)}</p>
               <br />
             </section>
+
             <section className="flex flex-col items-center sm:mx-auto">
               <CardMe />
+              <br />
+              <p className="text-center font-bold text-xl">{t.rich("aboutMe.contactMe.text2", tagsInText)}</p>
             </section>
+
           </section>
         </section>
 
-        <section className="flex flex-col items-center mt-14">
+        <section className="flex flex-col items-center mt-10">
           <p className="text-center font-bold text-3xl mb-8">Hard Skills</p>
           <section className="flex flex-col items-start w-full text-xl text-center md:text-start">
-            <p>
-              {t("hardSkills.text1")}
-              <strong className="font-semibold text-primary">{t("hardSkills.text2")}</strong>
-              {t("hardSkills.text3")}
-            </p>
+            <p>{t.rich('hardSkills.text1', tagsInText)}</p>
             <br />
-            <p>
-            {t("hardSkills.text4")}
-              <strong className="font-semibold text-primary">{t("hardSkills.text5")}</strong>
-              {t("hardSkills.text6")}
-              <strong className="font-semibold text-primary">{t("hardSkills.text7")}</strong>
-              {t("hardSkills.text8")}
-              <strong className="font-semibold text-primary">{t("hardSkills.text9")}</strong>
-              {t("hardSkills.text10")}
-            </p>
+            <p>{t.rich('hardSkills.text2', tagsInText)}</p>
             <br />
-            <p>
-            {t("hardSkills.text11")}
-              <strong className="font-semibold text-primary">{t("hardSkills.text12")}</strong>
-              {t("hardSkills.text13")}
-            </p>
+            <p>{t.rich('hardSkills.text3', tagsInText)}</p>
             <br />
-            <p>{t("hardSkills.text14")}</p>
+            <p>{t.rich("hardSkills.text4", tagsInText)}</p>
           </section>
           <section className="flex flex-wrap flex-col md:flex-row md:gap-4 justify-center w-full mb-4 mt-10">
             <CardTech icon="SiReact" techTitle="React" />
             <CardTech icon="SiVuedotjs" techTitle="VueJS" />
             <CardTech icon="SiNextdotjs" techTitle="NextJS" />
             <CardTech icon="SiReact" techTitle="React Native" />
-            <CardTech icon="SiIonic" techTitle="Ionic" />
             <CardTech icon="SiElectron" techTitle="ElectronJS" />
             <CardTech icon="SiTailwindcss" techTitle="Tailwind" />
             <CardTech icon="SiTypescript" techTitle="Typescript" />
             <CardTech icon="SiNodedotjs" techTitle="NodeJS" />
+            <CardTech icon="SiNestjs" techTitle="NestJS" />
             <CardTech icon="SiPython" techTitle="Python" />
             <CardTech icon="SiDocker" techTitle="Docker" />
+            <CardTech icon="SiAmazonaws" techTitle="AWS" />
             <CardTech icon="SiGit" techTitle="GIT" />
             <CardTech icon="SiDatabricks" techTitle="SQL" />
             <CardTech icon="SiLinux" techTitle="Linux" />
           </section>
         </section>
 
-        <section className="flex flex-col items-center mt-14">
+        <section className="flex flex-col items-center mt-10">
           <p className="text-center font-bold text-3xl mb-8">Soft Skills</p>
           <section className="flex flex-col items-start w-full text-xl text-center md:text-start">
-            <p>
-              {t("softSkills.text1")}
-              <strong className="text-primary">{t("softSkills.text2")}</strong>
-              {t("softSkills.text3")}
-              <strong className="text-primary">{t("softSkills.text4")}</strong>
-              {t("softSkills.text5")}
-              <strong className="text-primary">{t("softSkills.text6")}</strong>
-              {t("softSkills.text7")}
-              <strong className="text-primary">{t("softSkills.text8")}</strong>
-              {t("softSkills.text9")}
-              <strong className="text-primary">{t("softSkills.text10")}</strong>
-              {t("softSkills.text11")}
-            </p>
+            <p>{t.rich('softSkills.text1', tagsInText)}</p>
             <br />
-            <p>
-              {t("softSkills.text12")}
-              <strong className="text-primary">{t("softSkills.text13")}</strong>
-              {t("softSkills.text14")}
-            </p>
+            <p>{t.rich('softSkills.text2', tagsInText)}</p>
+            <br />
+            <p>{t.rich('softSkills.text3', tagsInText)}</p>
+            <br />
           </section>
           <section className="flex flex-nowrap flex-col items-center md:flex-row md:justify-center md:gap-4 w-full mt-4">
             <CardSoftSkills
@@ -131,10 +106,7 @@ const About: NextPage = () => {
               {t("programmingCard.title")}
             </p>
             <p className="text-center text-lg">
-              <strong className="italic">"{t("programmingCard.text1")}"</strong>
-              {t("programmingCard.text2")}
-              <strong className="italic">"{t("programmingCard.text3")}"</strong>
-              {t("programmingCard.text4")}
+              {t.rich("programmingCard.text", tagsInText)}
             </p>
           </section>
         </section>

@@ -14,50 +14,30 @@
   },
   "Home" : {
     "helloMessage": "Olá, eu sou",
-    "desecription": "Desenvolvedor de software, residindo no Brasil.",
-    "slogan": "Sempre bucando aprender algo novo."
+    "desecription": "Vamos transformar ideias abstratas em realidade.",
+    "slogan": "Bora fazer acontecer!"
   },
   "About": {    
     "about": "Sobre mim",
     "aboutMe": {
-      "saudation": "Olá, eu sou",
-      "whoami": ", um desenvolvedor de software, residindo no Brasil, graduado como",
-      "graduation": "bacharel em sistemas de informação.",
-      "particulars": "Meu objetivo é fazer a diferença construindo aplicações que tenham um impacto positivo nas pessoas ou no mundo, resolvendo problemas e tornando as coisas mais fáceis por meio da programação.",
-      "slogan": "Busco constantemente ser a melhor versão de mim mesmo, sempre em busca de aprender algo novo, encarar novos desafios e aproveitando oportunidades para me desenvolver.",
-      "thingsILike": "Sou fã de quadrinhos, mangás, rock, jogos, filmes, séries e animes, um verdadeiro nerd."
+      "text1": "Olá, eu sou <strongColor>Thiago Chinen</strongColor>, um desenvolvedor de software que resolve problemas <strong>por meio da programação</strong>.",
+      "text2": "Meu objetivo é <strong>fazer a diferença construindo aplicações de alta qualidade</strong> que <strong>atendam às necessidades</strong>, <strong>superem as expectativas</strong> e principalmente tenham um <strongColor>impacto positivo</strongColor> nas <strong>pessoas</strong> ou no <strong>mundo</strong>, <strongColor>resolvendo problemas</strongColor> e <strongColor>tornando as coisas mais fáceis</strongColor>.",
+      "text4": "Sou fã de <strong>livros, quadrinhos, mangás, filosofia, jiu-jitsu, jogos, filmes, séries e animes,</strong> um <strongColor>verdadeiro nerd</strongColor>.",
+      "contactMe": {
+        "text1": "Se você está procurando um <strong>desenvolvedor dedicado</strong>, <strongColor>apaixonado por tecnologia</strongColor>, pronto para enfrentar desafios e <strong>encontrar formas de resolver problemas</strong>, entre em contato comigo. Estou ansioso para trocar ideias e <strong>explorar como podemos colaborar</strong> para <strongColor>criar soluções impactantes</strongColor>.",
+        "text2": "<strong>Vamos transformar ideias abstratas em realidade, bora fazer acontecer!</strong>"
+      }
     },
     "hardSkills": {
-      "text1": "Me considero um ",
-      "text2": "desenvolvedor full-stack",
-      "text3": ", estou sempre me aprimorando para aprender novas tecnologias que me ajudem a resolver problemas ou simplifiquem as tarefas.",
-      "text4": "Meu foco principal atualmente é o desenvolvimento ",
-      "text5": "mobile",
-      "text6": " ou ",
-      "text7": "aplicativos web no frontend",
-      "text8": " com designs responsivos e agradáveis ​​que proporcionem uma boa experiência ao usuário, e no ",
-      "text9": "backend",
-      "text10": ", implementando as regras definidas pelo negócio com bom desempenho e garantindo a transmissão correta e segura dos dados.",
-      "text11": "Sempre buscando aplicar ",
-      "text12": "boas práticas",
-      "text13": ", que permitem uma fácil manutenção e simplicidade na legibilidade do código.",
-      "text14": "Aqui estão algumas tecnologias que tenho trabalhado recentemente:"
+      "text1": "Estou constantemente em busca de aprimorar minhas habilidades para <strongColor> simplificar </strongColor> e <strongColor>resolver problemas complexos de forma eficiente</strongColor>.",
+      "text2": "Atualmente, meu foco está no <strongColor>desenvolvimento de aplicações web</strongColor>, sempre buscando aplicar <strong>boas práticas</strong> para se ter uma boa arquitetura que <strong>atenda aos objetivos de negócio</strong>, <strong>respeitando as restrições</strong> e buscando alcançar <strong>qualidade, desempenho, disponibilidade, escalabilidade, manutenibilidade, flexibilidade e segurança,</strong> criando uma boa <strong>experiência para o usuário</strong>, com <strong>interfaces responsivas</strong> e <strong>atraentes</strong>, <strongColor>impulsionando assim o sucesso dos negócios</strongColor>.",
+      "text3": "Meu compromisso com a excelência é evidente em todos os aspectos do meu trabalho, além disso, valorizo profundamente o <strong> trabalho em equipe </strong> e acredito que é através do <strong>compartilhamento de ideias</strong> e da <strong>colaboração</strong> que podemos <strongColor>alcançar os melhores resultados</strongColor>.",
+      "text4": "Aqui estão algumas das tecnologias com as quais tenho trabalhado recentemente:"
     },
     "softSkills": {
-      "text1": "Sempre busco ter um pensamento crítico e ",
-      "text2": "criativo",
-      "text3": ", identificar problemas e pensar em diferentes soluções. Me esforço para manter uma ",
-      "text4": "boa comunicação",
-      "text5": ", fornecendo feedbacks e buscando ser ",
-      "text6": "flexível",
-      "text7": " e ",
-      "text8": "resiliente",
-      "text9": " para me adaptar a qualquer circunstância. Busco ser ",
-      "text10": "proativo",
-      "text11": ", avaliando cenários e encontrando maneiras de resolver problemas que impedem resultados ou prejudicam a produtividade.",
-      "text12": "Trabalho bem em equipe, pois acredito que é importante discutir maneiras de resolver problemas, afinal, sempre há mais de uma abordagem. Gosto de ouvir as ideias e opiniões das pessoas, especialmente quando são diferentes das minhas, pois considero que ",
-      "text13": "colaborar",
-      "text14": " é a habilidade mais importante para quem trabalha com conhecimento.",
+      "text1": "Sempre busco ter um pensamento <strongColor>crítico</strongColor> e <strongColor>criativo</strongColor>, identificar problemas e pensar em diferentes soluções. Me esforço para manter uma <strongColor>boa comunicação</strongColor>, ser <strongColor>flexível</strongColor> e <strongColor>resiliente</strongColor> para me adaptar a qualquer circunstância. Busco ser <strongColor>proativo</strongColor>, avaliando cenários e encontrando maneiras de resolver problemas que impedem resultados ou prejudicam a produtividade.",
+	    "text2": "Trabalhar em equipe é uma habilidade que considero <strong>essencial</strong>, acredito na importância de <strong>discutir diferentes abordagens para resolver problemas</strong>, reconhecendo que sempre há mais de uma perspectiva, estou sempre <strong>aberto a ouvir ideias</strong> e opiniões dos outros, especialmente quando divergem das minhas, pois para mim a <strongColor>colaboração</strongColor> é fundamental no ambiente de trabalho, especialmente para profissionais que trabalham com conhecimento.",
+      "text3": "Busco constantemente ser <strong>a melhor versão de mim mesmo</strong>, sempre em busca de <strongColor>aprender</strongColor> algo novo, encarar novos desafios e aproveitar oportunidades para me desenvolver. Sou apaixonado por tecnologia e sempre disposto a trocar ideia sobre.",
       "card": {
         "adaptability": "Adaptabilidade",
         "creativity": "Criatividade",
@@ -67,10 +47,7 @@
     },
     "programmingCard": {
       "title": "Programação",
-      "text1": "O ato de escrever um código, para um computador executar",
-      "text2": ", essa é a definição de o que é programação, de acordo com o Google, para mim uma melhor definição seria ",
-      "text3": "o ato de transformar ideias abstratas em algo que resolva um determinado problema",
-      "text4": " e essa ideia é muito interessante, talvez por isso que faço com entusiasmo, sempre buscando por formas de resolver problemas."
+      "text": "<italic>O ato de escrever um código, para um computador executar</italic>, essa é a definição de o que é programação, de acordo com o Google, para mim uma melhor definição seria <italic>o ato de transformar ideias abstratas em algo que resolva um determinado problema</italic>  e essa ideia é muito interessante, talvez por isso que faço com entusiasmo, sempre buscando por formas de resolver problemas."
     }
   }
 }
