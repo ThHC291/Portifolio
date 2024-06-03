@@ -1,6 +1,6 @@
 # Portfolio Website
 
-![Portifolio_image](https://github.com/thiagochinen/portifolio/assets/47902812/6bbb41f8-2ec8-4d71-b763-ec504fab7b6e)
+![Portifolio_image](https://github.com/thiagochinen/portfolio/assets/47902812/c6181c13-41b3-4203-af0e-5dbd1c9c4ff8)
 
 ## 🚀 Demo
 Visit - [thiagochinen.com](https://portfolio-delta-ebon.vercel.app)
